@@ -13,7 +13,7 @@ def main():
         menu()
 
         choice = input("Choose your an action (1-5): ")
-        
+
         if choice == "1":
             print_quote(random_quote(quotes))
         elif choice == "2":
@@ -24,6 +24,7 @@ def main():
         elif choice == "5":
             count = int(input("Enter the number of quotes to display: "))
             display_quotes(quotes, count)
+
         else:
             print("Invalid input")
 
